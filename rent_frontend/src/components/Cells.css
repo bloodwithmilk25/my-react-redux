@@ -1,0 +1,18 @@
+.box {
+  height: 70px;
+  width: 70px;
+  border: solid 2px black;
+  margin: 15px;
+  background-color: #6ae873;
+}
+
+.cells {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 0 10px;
+  grid-auto-rows: 100px;
+}
+
+.occupied {
+  background-color: #f45853;
+}
